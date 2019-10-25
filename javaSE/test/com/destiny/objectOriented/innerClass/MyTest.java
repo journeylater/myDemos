@@ -48,7 +48,7 @@ public class MyTest {
      * 匿名内部类
      */
     @Test
-    public void test5() { 
+    public void test5() {
         //有名字的内部类
         NoNameInnnerClass noNameInnnerClass = new NoNameInnnerClass();
        // noNameInnnerClass.nameMethod();
