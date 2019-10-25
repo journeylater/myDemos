@@ -1,6 +1,8 @@
 package com.destiny.multithreading.p05;
 /**
  * synchronized的重入
+ *
+ *  可重入锁的关键就是不用释放锁
  * @author alienware
  *
  */

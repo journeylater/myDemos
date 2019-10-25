@@ -3,3 +3,14 @@ p02、多个线程多个锁
 p03、对象锁的同步和异步
 p04、脏读
 p05、synchronized细节(锁的重入)
+p06、synchronized细节(代码块加锁、类锁、对象锁)
+p07、volatile关键字
+p08、线程间的通信
+p09、wait/notify 模拟阻塞队列
+p10、ThreadLocal
+p11、多线程下的单例模式
+p12、容器加锁：Collections.synchronizedMap()
+p13、同步类容器(有锁争用，效率低，高并发不推荐使用)
+p14、future模式
+p15、master/worker模式
+p16、生成消费者模式
