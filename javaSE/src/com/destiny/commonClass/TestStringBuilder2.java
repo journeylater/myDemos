@@ -17,9 +17,9 @@ public class TestStringBuilder2 {
         System.out.println(sb);
         sb.reverse();		//倒序
         System.out.println(sb);
-        sb.setCharAt(3, '高');
+      //  sb.setCharAt(3, '高');
         System.out.println(sb);
-        sb.insert(0, '我').insert(6, '爱').insert(10, '你');  		//链式调用。核心就是：该方法调用了return this，把自己返回了。
+       // sb.insert(0, '我').insert(6, '爱').insert(10, '你');  		//链式调用。核心就是：该方法调用了return this，把自己返回了。
         System.out.println(sb);
 
         sb.delete(20, 23);
