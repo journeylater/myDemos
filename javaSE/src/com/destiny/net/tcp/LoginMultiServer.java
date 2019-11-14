@@ -36,6 +36,7 @@ public class LoginMultiServer {
 		private DataInputStream dis;
 		//输出流
 		private DataOutputStream dos;
+
 		public Channel(Socket  client) {
 			this.client = client;
 			try {
@@ -111,7 +112,7 @@ public class LoginMultiServer {
 						upwd = userInfo[1];
 					}				
 			}					
-			if(uname.equals("shsxt") && upwd.equals("laopei")) { //成功
+			if(uname.equals("001") && upwd.equals("001")) { //成功
 				send("登录成功，欢迎回来");
 			}else { //失败
 				send("用户名或密码错误");
